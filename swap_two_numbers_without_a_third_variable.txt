@@ -1,0 +1,2 @@
+Method 1:Using Arithmetic operators, a=a-b ,b=a+b=(a-b)+b=a,a=b-a=a-(a-b)=b.  (other variations of this version exist)
+Method 2: Using Xor operators a=a xor b,b=a xor b=(a xor b)xor b=a,a=a xor b= (a xor b) xor a = a
