@@ -10,9 +10,8 @@ public:
         int m;
         while(ans.size()<size){
             m=ans.size();
-            for(int i=m-1;i>=0;i--){
+            for(int i=m-1;i>=0;i--)
                 ans.push_back(ans[i]|m);
-            }
         }
         return ans;
     }
